@@ -1,0 +1,71 @@
+body {
+    font-family: 'Kode Mono', monospace;
+    background-color: black;
+    color:white;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1{
+    font-size: 45px;
+    font-family: "Honk", system-ui;
+  }
+  
+  .lyrics-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .lyrics {
+    background-color:whitesmoke;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(89, 172, 228, 1.0);
+  }
+  
+  .line {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .romantic {
+    color: #FF69B4; 
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .energetic {
+    color: #3da6cf; 
+    font-style: italic;
+    font-size: 25px;
+    font-family: 'Jacquarda Bastarda 9', cursive;
+  }
+  
+  .screaming {
+    color: #9370DB; 
+    font-size: 24px;
+    font-family: "Honk", system-ui;
+  }
+  
+  .magical {
+    color: #dbb016; 
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+    font-weight: 700;
+  }
+  
+  .line:hover {
+    transform: scale(1.55);
+  }  
